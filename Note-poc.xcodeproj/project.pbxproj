@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		60D562D82AF2A12A002075B0 /* Note_pocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562D72AF2A12A002075B0 /* Note_pocApp.swift */; };
 		60D562DA2AF2A12A002075B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562D92AF2A12A002075B0 /* ContentView.swift */; };
-		60D562DC2AF2A12A002075B0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562DB2AF2A12A002075B0 /* Item.swift */; };
 		60D562DE2AF2A12D002075B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D562DD2AF2A12D002075B0 /* Assets.xcassets */; };
 		60D562E12AF2A12D002075B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D562E02AF2A12D002075B0 /* Preview Assets.xcassets */; };
 		60D562EC2AF2A12D002075B0 /* Note_pocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562EB2AF2A12D002075B0 /* Note_pocTests.swift */; };
 		60D562F62AF2A12D002075B0 /* Note_pocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562F52AF2A12D002075B0 /* Note_pocUITests.swift */; };
 		60D562F82AF2A12D002075B0 /* Note_pocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D562F72AF2A12D002075B0 /* Note_pocUITestsLaunchTests.swift */; };
+		60D563062AF2A4E1002075B0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D563052AF2A4E1002075B0 /* Note.swift */; };
+		60D563082AF2A6A9002075B0 /* NoteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D563072AF2A6A9002075B0 /* NoteCategory.swift */; };
+		60D5630B2AF2ADED002075B0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D5630A2AF2ADED002075B0 /* Home.swift */; };
+		60EAD3F02AF504790051F82D /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAD3EF2AF504790051F82D /* NotesView.swift */; };
+		60EAD3F22AF53A900051F82D /* NoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EAD3F12AF53A900051F82D /* NoteCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		60D562D42AF2A12A002075B0 /* Note-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D562D72AF2A12A002075B0 /* Note_pocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_pocApp.swift; sourceTree = "<group>"; };
 		60D562D92AF2A12A002075B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		60D562DB2AF2A12A002075B0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		60D562DD2AF2A12D002075B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60D562E02AF2A12D002075B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60D562E22AF2A12D002075B0 /* Note_poc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Note_poc.entitlements; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		60D562F12AF2A12D002075B0 /* Note-pocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note-pocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D562F52AF2A12D002075B0 /* Note_pocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_pocUITests.swift; sourceTree = "<group>"; };
 		60D562F72AF2A12D002075B0 /* Note_pocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_pocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60D563052AF2A4E1002075B0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		60D563072AF2A6A9002075B0 /* NoteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCategory.swift; sourceTree = "<group>"; };
+		60D5630A2AF2ADED002075B0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		60EAD3EF2AF504790051F82D /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		60EAD3F12AF53A900051F82D /* NoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,10 @@
 		60D562D62AF2A12A002075B0 /* Note-poc */ = {
 			isa = PBXGroup;
 			children = (
+				60D563042AF2A42F002075B0 /* Model */,
+				60D563092AF2ADC6002075B0 /* View */,
 				60D562D72AF2A12A002075B0 /* Note_pocApp.swift */,
 				60D562D92AF2A12A002075B0 /* ContentView.swift */,
-				60D562DB2AF2A12A002075B0 /* Item.swift */,
 				60D562DD2AF2A12D002075B0 /* Assets.xcassets */,
 				60D562E22AF2A12D002075B0 /* Note_poc.entitlements */,
 				60D562DF2AF2A12D002075B0 /* Preview Content */,
@@ -130,6 +139,25 @@
 				60D562F72AF2A12D002075B0 /* Note_pocUITestsLaunchTests.swift */,
 			);
 			path = "Note-pocUITests";
+			sourceTree = "<group>";
+		};
+		60D563042AF2A42F002075B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60D563052AF2A4E1002075B0 /* Note.swift */,
+				60D563072AF2A6A9002075B0 /* NoteCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60D563092AF2ADC6002075B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60D5630A2AF2ADED002075B0 /* Home.swift */,
+				60EAD3EF2AF504790051F82D /* NotesView.swift */,
+				60EAD3F12AF53A900051F82D /* NoteCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EAD3F22AF53A900051F82D /* NoteCardView.swift in Sources */,
+				60EAD3F02AF504790051F82D /* NotesView.swift in Sources */,
+				60D563082AF2A6A9002075B0 /* NoteCategory.swift in Sources */,
 				60D562DA2AF2A12A002075B0 /* ContentView.swift in Sources */,
-				60D562DC2AF2A12A002075B0 /* Item.swift in Sources */,
 				60D562D82AF2A12A002075B0 /* Note_pocApp.swift in Sources */,
+				60D5630B2AF2ADED002075B0 /* Home.swift in Sources */,
+				60D563062AF2A4E1002075B0 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
